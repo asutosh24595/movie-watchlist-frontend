@@ -11,7 +11,6 @@ const Home = () => {
   const movies = useSelector((state) => state.movie.movies);
   const dispatch = useDispatch();
 
-
   useEffect(() => {
     const fetchMovies = async () => {
       try {
@@ -27,24 +26,30 @@ const Home = () => {
 
   return (
     <div className="app">
-    <div className="header-container">
+      <div className="header-container">
         <h1 className="header">Movies Watchlist</h1>
-      <Link to="/add-movie">
-        <button className="button">
-          <div className="button-add">
-            <LibraryAddIcon />
-            <span>Add movie</span>
+        <Link to="/add-movie">
+          <button className="button">
+            <div className="button-add">
+              <LibraryAddIcon />
+              <span>Add movie</span>
+            </div>
+          </button>
+        </Link>
+      </div>
+      {movies.length > 0 ? (
+        <div className="movies">
+          <div className="list">
+            {movies.map((movie) => (
+              <MovieCard key={movie._id} id={movie._id} title={movie.title} />
+            ))}
           </div>
-        </button>
-      </Link>
-      </div>
-      <div className="movies">
-        <div className="list">
-          {movies.map((movie) => (
-            <MovieCard key={movie._id} id={movie._id} title={movie.title} />
-          ))}
         </div>
-      </div>
+      ) : (
+        <div className="no-movies">
+          <h1>No movies in watchlist</h1>
+        </div>
+      )}
     </div>
   );
 };
