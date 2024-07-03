@@ -46,12 +46,14 @@
   font-size: larger;
   font-family: cursive;
   color: white;
-  background-color:#8d99ae; 
+  background: color #8d99ae / 2px;; 
   padding: 15px 20px; 
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   text-align: center; 
-  margin: auto; 
+  display:flex;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.3s; 
 }
