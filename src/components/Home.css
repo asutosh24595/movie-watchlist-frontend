@@ -45,15 +45,9 @@
 .no-movies {
   font-size: larger;
   font-family: cursive;
-  color: white;
-  padding: 15px 20px; 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  color: rgba(255, 255, 255, 0.7);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   text-align: center; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
   transition: transform 0.3s; 
+  margin-top: 50%;
 }
