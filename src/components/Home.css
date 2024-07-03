@@ -43,16 +43,15 @@
 }
 
 .no-movies {
-  width: 50%;
   font-size: larger;
-  font-family: 'Cursive', sans-serif;
+  font-family: cursive;
   color: white;
-  background-color: transparent; 
+  background-color:#8d99ae; 
   padding: 15px 20px; 
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   text-align: center; 
-  margin: 60px 0; 
+  margin: auto; 
   transition: transform 0.3s; 
 }
