@@ -1,0 +1,75 @@
+.movie-data {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/bg-2.jpg");
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+  }
+  
+  .movie {
+    width: 75%;
+    max-width: 900px; 
+    padding: 40px;
+    background-color: #333; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  .movie-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  
+  .movie h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .movie-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .movie-review-rating{
+    display: flex;
+    gap: 6px;
+  }
+
+  .movie textarea {
+    width: 90%;
+    min-height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    resize: vertical;
+    margin-top: 10px;
+  }
+  
+  .movie textarea:focus {
+    border-color: #4AB9FF;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+
+  .watched-button{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  
+  

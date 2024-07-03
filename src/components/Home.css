@@ -1,0 +1,43 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  border-bottom: 2px solid grey;
+}
+
+.header {
+  color: #bbdbd1;
+  font-family: 'Abel';
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+.button-add {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.movies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
+}
