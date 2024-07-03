@@ -47,7 +47,7 @@ const Home = () => {
         </div>
       ) : (
         <div className="no-movies">
-          <h1>No movies in watchlist</h1>
+          <p>No movies in watchlist</p>
         </div>
       )}
     </div>

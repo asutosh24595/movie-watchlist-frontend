@@ -45,9 +45,9 @@
 .no-movies {
   font-size: larger;
   font-family: cursive;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   text-align: center; 
   transition: transform 0.3s; 
-  margin-top: 60px;
+  margin-top: 100px;
 }
