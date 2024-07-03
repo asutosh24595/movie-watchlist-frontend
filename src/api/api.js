@@ -1,7 +1,6 @@
 import axios from "axios";
 
-axios.defaults.withCredentials = true;
-const API_BASE_URL = "https://movie-watchlist-backend-neon.vercel.app";
+const API_BASE_URL = "https://movie-watchlist-backend-bpoz.onrender.com";
 
 export const addMovieToDb = async (movieData) => {
   try {
